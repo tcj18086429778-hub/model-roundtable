@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Structured multi-model debate with adversarial personas, scoring cards, and moderator synthesis",
   "bin": {
-    "model-roundtable": "./scripts/cli.js"
+    "model-roundtable": "scripts/cli.js"
   },
   "files": [
     "scripts/",
@@ -37,6 +37,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TCJ18086429778-hub/model-roundtable.git"
+    "url": "git+https://github.com/TCJ18086429778-hub/model-roundtable.git"
   }
 }
