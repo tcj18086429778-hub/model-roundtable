@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Roundtable"
+  short_description: "Run interactive Codex-moderated Claude model discussions."
+  default_prompt: "Use claude-roundtable to run an interactive multi-model Claude discussion, route direct challenges between profiles, and synthesize the best final recommendation."
