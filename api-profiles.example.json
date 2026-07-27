@@ -1,0 +1,26 @@
+{
+  "kimi": {
+    "description": "Kimi K3 Coding Plan — Architect persona",
+    "model": "sonnet",
+    "env": {
+      "ANTHROPIC_BASE_URL": "https://api.kimi.com/coding/",
+      "ANTHROPIC_API_KEY": "YOUR_KIMI_API_KEY_HERE"
+    }
+  },
+  "deepseek": {
+    "description": "DeepSeek V4 Pro — Red-Teamer persona",
+    "model": "deepseek-v4-pro",
+    "env": {
+      "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+      "ANTHROPIC_AUTH_TOKEN": "YOUR_DEEPSEEK_AUTH_TOKEN_HERE"
+    }
+  },
+  "gpt": {
+    "description": "OpenAI GPT — General builder persona",
+    "model": "gpt-5.4",
+    "env": {
+      "ANTHROPIC_BASE_URL": "https://your-openai-compatible-proxy.example.com",
+      "ANTHROPIC_AUTH_TOKEN": "YOUR_OPENAI_AUTH_TOKEN_HERE"
+    }
+  }
+}
