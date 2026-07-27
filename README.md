@@ -1,5 +1,9 @@
 # model-roundtable
 
+[![npm version](https://img.shields.io/npm/v/model-roundtable.svg)](https://www.npmjs.com/package/model-roundtable)
+[![license](https://img.shields.io/npm/l/model-roundtable.svg)](./LICENSE)
+[![node](https://img.shields.io/node/v/model-roundtable.svg)](https://nodejs.org/)
+
 **Structured multi-model debate where an Architect and a Red-Teamer fight it out — and you get the verdict.**
 
 > Not another "ask three models and pick the majority" tool.
