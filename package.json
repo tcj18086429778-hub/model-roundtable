@@ -1,0 +1,42 @@
+{
+  "name": "model-roundtable",
+  "version": "1.0.0",
+  "description": "Structured multi-model debate with adversarial personas, scoring cards, and moderator synthesis",
+  "bin": {
+    "model-roundtable": "./scripts/cli.js"
+  },
+  "files": [
+    "scripts/",
+    "references/",
+    "agents/",
+    "SKILL.md",
+    "LICENSE",
+    "api-profiles.example.json"
+  ],
+  "scripts": {
+    "test": "node --test scripts/**/*.test.js",
+    "preflight": "node scripts/cli.js --preflight"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "llm",
+    "multi-model",
+    "debate",
+    "roundtable",
+    "red-team",
+    "scoring-card",
+    "claude-code",
+    "ai-agent",
+    "consensus",
+    "architecture-review",
+    "adversarial",
+    "multi-agent"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TCJ18086429778-hub/model-roundtable.git"
+  }
+}
